@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.sort-options h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.sort-options img {
+    display: block;
+    width: 60%;
+    height: 40%;
+    margin: 10px auto;
+}
+
+.sort-options {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sort-options {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sort-options select {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.product-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 4px;
+}
+
+.product-card p{
+
+    color:red;
+}
+
+.product-card p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-card button {
+    width: 100%;
+    border: none;
+    padding: 0.5rem;
+    font-weight: bold;
+    background-color: greenyellow;
+    color: red;
+    font-size: small;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.product-card button:hover {
+    background-color: green;
+}
+
+.btn-primary {
+    color: black;
+    background-color: #59ba51;
+    border-color: #59ba51;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: green;
+    border-color: green;
+}
+
+.btn-secondary {
+    color: black;
+    background-color: #59ba51;
+    border-color: #59ba51;
+}
+
+.btn-secondary:hover {
+    color: black;
+    background-color: green;
+}
+
+.product-card button {
+    width: 100%;
+    border: none;
+    padding: 0.5rem;
+    font-weight: bold;
+    background-color: greenyellow;
+    color: red;
+    font-size: small;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: green;
+    transform: scale(1.1); /* Aumenta el tamaño del botón 10% */
+}
+
+.product-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición*/
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño de la tarjeta 5% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra al pasar el cursor */
+}
+
+.product-card img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 2px;
+    transition: transform 0.3s ease;
+}
+
+.product-card img:hover {
+    transform: scale(1.03); /* Aumenta el tamaño de la imagen 3% */
+}
+
+/* Botones animados */
+.product-card button {
+    width: 100%;
+    border: none;
+    padding: 0.5rem;
+    font-weight: bold;
+    background-color: greenyellow;
+    color: red;
+    font-size: small;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: green;
+    transform: scale(1.1); /* Aumenta el tamaño del botón 10% */
+}
+
+.quantity-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantity-controls button {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    background-color:greenyellow;
+    color: red;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.quantity-controls input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.product-card button.btn-primary {
+    margin-top: 20px; /* Mayor separación del botón con los controles de cantidad */
+}
+
+.total-container {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: red; /* Cambia el color del texto a rojo */
+}
+
+
+
